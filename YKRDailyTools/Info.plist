@@ -50,6 +50,10 @@
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>本操作需要开启定位的权限</string>
+	<key>NSCameraUsageDescription</key>
+	<string>本操作需要相机权限</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>本操作需要调用麦克风的权限</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

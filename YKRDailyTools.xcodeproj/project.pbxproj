@@ -151,6 +151,24 @@
 		04BBFB84229E291E00F163A6 /* ForecastController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFAFC229E291D00F163A6 /* ForecastController.m */; };
 		04BBFB85229E291E00F163A6 /* ResponseDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFAFF229E291E00F163A6 /* ResponseDataManager.m */; };
 		04BBFB86229E291E00F163A6 /* ResponseDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFB00229E291E00F163A6 /* ResponseDataSerializer.m */; };
+		04BBFBB9229E36AD00F163A6 /* QQL_NetSpeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFB8C229E36AC00F163A6 /* QQL_NetSpeedView.m */; };
+		04BBFBBA229E36AD00F163A6 /* QQL_NetworkSpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFB8F229E36AC00F163A6 /* QQL_NetworkSpeedViewController.m */; };
+		04BBFBBB229E36AD00F163A6 /* QBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFB92229E36AC00F163A6 /* QBTools.m */; };
+		04BBFBBC229E36AD00F163A6 /* MeasurNetTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFB93229E36AC00F163A6 /* MeasurNetTools.m */; };
+		04BBFBBD229E36AD00F163A6 /* QQL_CorrectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFB97229E36AC00F163A6 /* QQL_CorrectViewController.m */; };
+		04BBFBBE229E36AD00F163A6 /* QQL_LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFB99229E36AC00F163A6 /* QQL_LevelViewController.m */; };
+		04BBFBBF229E36AD00F163A6 /* ZJ_RulesLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFB9D229E36AC00F163A6 /* ZJ_RulesLineModel.m */; };
+		04BBFBC0229E36AD00F163A6 /* ZJ_RulesLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFB9E229E36AC00F163A6 /* ZJ_RulesLineView.m */; };
+		04BBFBC1229E36AD00F163A6 /* QQL_RuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFBA3229E36AC00F163A6 /* QQL_RuleViewController.m */; };
+		04BBFBC2229E36AD00F163A6 /* ZJ_RulesLineMovingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFBA4229E36AC00F163A6 /* ZJ_RulesLineMovingView.m */; };
+		04BBFBC3229E36AD00F163A6 /* QQL_NoiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFBA7229E36AC00F163A6 /* QQL_NoiseViewController.m */; };
+		04BBFBC4229E36AD00F163A6 /* DrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFBA8229E36AC00F163A6 /* DrawRectView.m */; };
+		04BBFBC5229E36AD00F163A6 /* QQL_CompassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFBAB229E36AC00F163A6 /* QQL_CompassView.m */; };
+		04BBFBC6229E36AD00F163A6 /* QQL_CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFBAD229E36AC00F163A6 /* QQL_CompassViewController.m */; };
+		04BBFBC7229E36AD00F163A6 /* QQL_CompassManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFBB0229E36AC00F163A6 /* QQL_CompassManage.m */; };
+		04BBFBC8229E36AD00F163A6 /* QQL_ProtractorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFBB2229E36AC00F163A6 /* QQL_ProtractorViewController.m */; };
+		04BBFBC9229E36AD00F163A6 /* UIControl+Block_Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFBB5229E36AC00F163A6 /* UIControl+Block_Handle.m */; };
+		04BBFBCA229E36AD00F163A6 /* QQL_MirrorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBFBB8229E36AC00F163A6 /* QQL_MirrorViewController.m */; };
 		18EDCBCD5626F9D627039E90 /* libPods-YKRDailyTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C79A6A7EA98158119F7E49EA /* libPods-YKRDailyTools.a */; };
 		4B223976D9CB90A535C2A862 /* libPods-YKRDailyToolsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A4E5EB1B2EB825C9AFE67E /* libPods-YKRDailyToolsTests.a */; };
 		DE419721A52D8B8AA51038BF /* libPods-YKRDailyToolsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6864DE02AB2BFF3EF5B30BC /* libPods-YKRDailyToolsUITests.a */; };
@@ -476,6 +494,43 @@
 		04BBFAFF229E291E00F163A6 /* ResponseDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseDataManager.m; sourceTree = "<group>"; };
 		04BBFB00229E291E00F163A6 /* ResponseDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseDataSerializer.m; sourceTree = "<group>"; };
 		04BBFB88229E29D600F163A6 /* WeatherHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherHeader.h; sourceTree = "<group>"; };
+		04BBFB8C229E36AC00F163A6 /* QQL_NetSpeedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQL_NetSpeedView.m; sourceTree = "<group>"; };
+		04BBFB8D229E36AC00F163A6 /* QQL_NetworkSpeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQL_NetworkSpeedViewController.h; sourceTree = "<group>"; };
+		04BBFB8E229E36AC00F163A6 /* QQL_NetSpeedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQL_NetSpeedView.h; sourceTree = "<group>"; };
+		04BBFB8F229E36AC00F163A6 /* QQL_NetworkSpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQL_NetworkSpeedViewController.m; sourceTree = "<group>"; };
+		04BBFB91229E36AC00F163A6 /* MeasurNetTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurNetTools.h; sourceTree = "<group>"; };
+		04BBFB92229E36AC00F163A6 /* QBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBTools.m; sourceTree = "<group>"; };
+		04BBFB93229E36AC00F163A6 /* MeasurNetTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurNetTools.m; sourceTree = "<group>"; };
+		04BBFB94229E36AC00F163A6 /* QBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBTools.h; sourceTree = "<group>"; };
+		04BBFB96229E36AC00F163A6 /* QQL_CorrectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQL_CorrectViewController.h; sourceTree = "<group>"; };
+		04BBFB97229E36AC00F163A6 /* QQL_CorrectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQL_CorrectViewController.m; sourceTree = "<group>"; };
+		04BBFB99229E36AC00F163A6 /* QQL_LevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQL_LevelViewController.m; sourceTree = "<group>"; };
+		04BBFB9A229E36AC00F163A6 /* QQL_LevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQL_LevelViewController.h; sourceTree = "<group>"; };
+		04BBFB9B229E36AC00F163A6 /* DailyHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyHeaders.h; sourceTree = "<group>"; };
+		04BBFB9D229E36AC00F163A6 /* ZJ_RulesLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJ_RulesLineModel.m; sourceTree = "<group>"; };
+		04BBFB9E229E36AC00F163A6 /* ZJ_RulesLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJ_RulesLineView.m; sourceTree = "<group>"; };
+		04BBFB9F229E36AC00F163A6 /* QQL_RuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQL_RuleViewController.h; sourceTree = "<group>"; };
+		04BBFBA0229E36AC00F163A6 /* ZJ_RulesLineMovingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJ_RulesLineMovingView.h; sourceTree = "<group>"; };
+		04BBFBA1229E36AC00F163A6 /* ZJ_RulesLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJ_RulesLineModel.h; sourceTree = "<group>"; };
+		04BBFBA2229E36AC00F163A6 /* ZJ_RulesLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJ_RulesLineView.h; sourceTree = "<group>"; };
+		04BBFBA3229E36AC00F163A6 /* QQL_RuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQL_RuleViewController.m; sourceTree = "<group>"; };
+		04BBFBA4229E36AC00F163A6 /* ZJ_RulesLineMovingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJ_RulesLineMovingView.m; sourceTree = "<group>"; };
+		04BBFBA6229E36AC00F163A6 /* DrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectView.h; sourceTree = "<group>"; };
+		04BBFBA7229E36AC00F163A6 /* QQL_NoiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQL_NoiseViewController.m; sourceTree = "<group>"; };
+		04BBFBA8229E36AC00F163A6 /* DrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectView.m; sourceTree = "<group>"; };
+		04BBFBA9229E36AC00F163A6 /* QQL_NoiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQL_NoiseViewController.h; sourceTree = "<group>"; };
+		04BBFBAB229E36AC00F163A6 /* QQL_CompassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQL_CompassView.m; sourceTree = "<group>"; };
+		04BBFBAC229E36AC00F163A6 /* QQL_CompassManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQL_CompassManage.h; sourceTree = "<group>"; };
+		04BBFBAD229E36AC00F163A6 /* QQL_CompassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQL_CompassViewController.m; sourceTree = "<group>"; };
+		04BBFBAE229E36AC00F163A6 /* QQL_CompassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQL_CompassView.h; sourceTree = "<group>"; };
+		04BBFBAF229E36AC00F163A6 /* QQL_CompassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQL_CompassViewController.h; sourceTree = "<group>"; };
+		04BBFBB0229E36AC00F163A6 /* QQL_CompassManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQL_CompassManage.m; sourceTree = "<group>"; };
+		04BBFBB2229E36AC00F163A6 /* QQL_ProtractorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQL_ProtractorViewController.m; sourceTree = "<group>"; };
+		04BBFBB3229E36AC00F163A6 /* UIControl+Block_Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Block_Handle.h"; sourceTree = "<group>"; };
+		04BBFBB4229E36AC00F163A6 /* QQL_ProtractorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQL_ProtractorViewController.h; sourceTree = "<group>"; };
+		04BBFBB5229E36AC00F163A6 /* UIControl+Block_Handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Block_Handle.m"; sourceTree = "<group>"; };
+		04BBFBB7229E36AC00F163A6 /* QQL_MirrorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQL_MirrorViewController.h; sourceTree = "<group>"; };
+		04BBFBB8229E36AC00F163A6 /* QQL_MirrorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQL_MirrorViewController.m; sourceTree = "<group>"; };
 		1932B5EA14342F9F7B5B9DA2 /* Pods-YKRDailyTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKRDailyTools.release.xcconfig"; path = "Target Support Files/Pods-YKRDailyTools/Pods-YKRDailyTools.release.xcconfig"; sourceTree = "<group>"; };
 		21A4E5EB1B2EB825C9AFE67E /* libPods-YKRDailyToolsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YKRDailyToolsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F6067038B6C9E3C78CB024 /* Pods-YKRDailyToolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKRDailyToolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-YKRDailyToolsUITests/Pods-YKRDailyToolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -540,6 +595,7 @@
 		04BBF465229E22B000F163A6 /* YKRDailyTools */ = {
 			isa = PBXGroup;
 			children = (
+				04BBFB8A229E36AC00F163A6 /* DailyTools */,
 				04BBF4C2229E278500F163A6 /* Weather */,
 				04BBF4A8229E23F900F163A6 /* MainPage */,
 				04BBF466229E22B000F163A6 /* AppDelegate.h */,
@@ -1018,6 +1074,122 @@
 			path = Color;
 			sourceTree = "<group>";
 		};
+		04BBFB8A229E36AC00F163A6 /* DailyTools */ = {
+			isa = PBXGroup;
+			children = (
+				04BBFB8B229E36AC00F163A6 /* NetWorkSpeed */,
+				04BBFB95229E36AC00F163A6 /* Correct */,
+				04BBFB98229E36AC00F163A6 /* LevelDevice */,
+				04BBFB9B229E36AC00F163A6 /* DailyHeaders.h */,
+				04BBFB9C229E36AC00F163A6 /* Rule */,
+				04BBFBA5229E36AC00F163A6 /* Noise */,
+				04BBFBAA229E36AC00F163A6 /* compass */,
+				04BBFBB1229E36AC00F163A6 /* Protractor */,
+				04BBFBB6229E36AC00F163A6 /* Mirror */,
+			);
+			path = DailyTools;
+			sourceTree = "<group>";
+		};
+		04BBFB8B229E36AC00F163A6 /* NetWorkSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				04BBFB8C229E36AC00F163A6 /* QQL_NetSpeedView.m */,
+				04BBFB8D229E36AC00F163A6 /* QQL_NetworkSpeedViewController.h */,
+				04BBFB8E229E36AC00F163A6 /* QQL_NetSpeedView.h */,
+				04BBFB8F229E36AC00F163A6 /* QQL_NetworkSpeedViewController.m */,
+				04BBFB90229E36AC00F163A6 /* tool */,
+			);
+			path = NetWorkSpeed;
+			sourceTree = "<group>";
+		};
+		04BBFB90229E36AC00F163A6 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				04BBFB91229E36AC00F163A6 /* MeasurNetTools.h */,
+				04BBFB92229E36AC00F163A6 /* QBTools.m */,
+				04BBFB93229E36AC00F163A6 /* MeasurNetTools.m */,
+				04BBFB94229E36AC00F163A6 /* QBTools.h */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		04BBFB95229E36AC00F163A6 /* Correct */ = {
+			isa = PBXGroup;
+			children = (
+				04BBFB96229E36AC00F163A6 /* QQL_CorrectViewController.h */,
+				04BBFB97229E36AC00F163A6 /* QQL_CorrectViewController.m */,
+			);
+			path = Correct;
+			sourceTree = "<group>";
+		};
+		04BBFB98229E36AC00F163A6 /* LevelDevice */ = {
+			isa = PBXGroup;
+			children = (
+				04BBFB99229E36AC00F163A6 /* QQL_LevelViewController.m */,
+				04BBFB9A229E36AC00F163A6 /* QQL_LevelViewController.h */,
+			);
+			path = LevelDevice;
+			sourceTree = "<group>";
+		};
+		04BBFB9C229E36AC00F163A6 /* Rule */ = {
+			isa = PBXGroup;
+			children = (
+				04BBFB9D229E36AC00F163A6 /* ZJ_RulesLineModel.m */,
+				04BBFB9E229E36AC00F163A6 /* ZJ_RulesLineView.m */,
+				04BBFB9F229E36AC00F163A6 /* QQL_RuleViewController.h */,
+				04BBFBA0229E36AC00F163A6 /* ZJ_RulesLineMovingView.h */,
+				04BBFBA1229E36AC00F163A6 /* ZJ_RulesLineModel.h */,
+				04BBFBA2229E36AC00F163A6 /* ZJ_RulesLineView.h */,
+				04BBFBA3229E36AC00F163A6 /* QQL_RuleViewController.m */,
+				04BBFBA4229E36AC00F163A6 /* ZJ_RulesLineMovingView.m */,
+			);
+			path = Rule;
+			sourceTree = "<group>";
+		};
+		04BBFBA5229E36AC00F163A6 /* Noise */ = {
+			isa = PBXGroup;
+			children = (
+				04BBFBA6229E36AC00F163A6 /* DrawRectView.h */,
+				04BBFBA7229E36AC00F163A6 /* QQL_NoiseViewController.m */,
+				04BBFBA8229E36AC00F163A6 /* DrawRectView.m */,
+				04BBFBA9229E36AC00F163A6 /* QQL_NoiseViewController.h */,
+			);
+			path = Noise;
+			sourceTree = "<group>";
+		};
+		04BBFBAA229E36AC00F163A6 /* compass */ = {
+			isa = PBXGroup;
+			children = (
+				04BBFBAB229E36AC00F163A6 /* QQL_CompassView.m */,
+				04BBFBAC229E36AC00F163A6 /* QQL_CompassManage.h */,
+				04BBFBAD229E36AC00F163A6 /* QQL_CompassViewController.m */,
+				04BBFBAE229E36AC00F163A6 /* QQL_CompassView.h */,
+				04BBFBAF229E36AC00F163A6 /* QQL_CompassViewController.h */,
+				04BBFBB0229E36AC00F163A6 /* QQL_CompassManage.m */,
+			);
+			path = compass;
+			sourceTree = "<group>";
+		};
+		04BBFBB1229E36AC00F163A6 /* Protractor */ = {
+			isa = PBXGroup;
+			children = (
+				04BBFBB2229E36AC00F163A6 /* QQL_ProtractorViewController.m */,
+				04BBFBB3229E36AC00F163A6 /* UIControl+Block_Handle.h */,
+				04BBFBB4229E36AC00F163A6 /* QQL_ProtractorViewController.h */,
+				04BBFBB5229E36AC00F163A6 /* UIControl+Block_Handle.m */,
+			);
+			path = Protractor;
+			sourceTree = "<group>";
+		};
+		04BBFBB6229E36AC00F163A6 /* Mirror */ = {
+			isa = PBXGroup;
+			children = (
+				04BBFBB7229E36AC00F163A6 /* QQL_MirrorViewController.h */,
+				04BBFBB8229E36AC00F163A6 /* QQL_MirrorViewController.m */,
+			);
+			path = Mirror;
+			sourceTree = "<group>";
+		};
 		06E780B4C2A63B2856E0A404 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1272,7 +1444,9 @@
 				04BBFB75229E291E00F163A6 /* POPAnimation.mm in Sources */,
 				04BBFB18229E291E00F163A6 /* City.m in Sources */,
 				04BBFB73229E291E00F163A6 /* POPDecayAnimation.mm in Sources */,
+				04BBFBC5229E36AD00F163A6 /* QQL_CompassView.m in Sources */,
 				04BBFB13229E291E00F163A6 /* GetWeatherData.m in Sources */,
+				04BBFBCA229E36AD00F163A6 /* QQL_MirrorViewController.m in Sources */,
 				04BBFB41229E291E00F163A6 /* MinTempCount.m in Sources */,
 				04BBFB23229E291E00F163A6 /* UIBezierPath+TextPaths.m in Sources */,
 				04BBFB6E229E291E00F163A6 /* POPMath.mm in Sources */,
@@ -1282,6 +1456,7 @@
 				04BBFB69229E291E00F163A6 /* YXEasing.m in Sources */,
 				04BBFB2C229E291E00F163A6 /* TemperatureCount.m in Sources */,
 				04BBFB57229E291E00F163A6 /* UIView+GlowView.m in Sources */,
+				04BBFBC2229E36AD00F163A6 /* ZJ_RulesLineMovingView.m in Sources */,
 				04BBF4AE229E23F900F163A6 /* YKRMainViewController.m in Sources */,
 				04BBFB3C229E291E00F163A6 /* SearchCell.m in Sources */,
 				04BBFB1E229E291E00F163A6 /* Clouds.m in Sources */,
@@ -1296,9 +1471,13 @@
 				04BBF4BC229E26AD00F163A6 /* ViewController.m in Sources */,
 				04BBFB56229E291E00F163A6 /* WeatherIconView.m in Sources */,
 				04BBFB80229E291E00F163A6 /* WeatherHomeViewController.m in Sources */,
+				04BBFBBA229E36AD00F163A6 /* QQL_NetworkSpeedViewController.m in Sources */,
+				04BBFBC4229E36AD00F163A6 /* DrawRectView.m in Sources */,
 				04BBFB42229E291E00F163A6 /* Sun.m in Sources */,
+				04BBFBBC229E36AD00F163A6 /* MeasurNetTools.m in Sources */,
 				04BBFB22229E291E00F163A6 /* YoCelsiusNetworkingInfo.m in Sources */,
 				04BBFB74229E291E00F163A6 /* POPPropertyAnimation.mm in Sources */,
+				04BBFBB9229E36AD00F163A6 /* QQL_NetSpeedView.m in Sources */,
 				04BBFB84229E291E00F163A6 /* ForecastController.m in Sources */,
 				04BBFB38229E291E00F163A6 /* CityTitleView.m in Sources */,
 				04BBFB21229E291E00F163A6 /* YoCelsiusRequestParameterSerializer.m in Sources */,
@@ -1306,9 +1485,13 @@
 				04BBFB4B229E291E00F163A6 /* EmitterLayerView.m in Sources */,
 				04BBFB0B229E291E00F163A6 /* GCDQueue.m in Sources */,
 				04BBFB64229E291E00F163A6 /* TemperatureView.m in Sources */,
+				04BBFBC9229E36AD00F163A6 /* UIControl+Block_Handle.m in Sources */,
 				04BBFB31229E291E00F163A6 /* HumidityCount.m in Sources */,
 				04BBFB1D229E291E00F163A6 /* SunriseAndSunset.m in Sources */,
 				04BBFB28229E291E00F163A6 /* NetworkingInfo.m in Sources */,
+				04BBFBC0229E36AD00F163A6 /* ZJ_RulesLineView.m in Sources */,
+				04BBFBBE229E36AD00F163A6 /* QQL_LevelViewController.m in Sources */,
+				04BBFBBD229E36AD00F163A6 /* QQL_CorrectViewController.m in Sources */,
 				04BBFB50229E291E00F163A6 /* TemperatureCountLabel.m in Sources */,
 				04BBFB6A229E291E00F163A6 /* Easing.c in Sources */,
 				04BBFB54229E291E00F163A6 /* LeftToRightView.m in Sources */,
@@ -1319,21 +1502,25 @@
 				04BBFB5A229E291E00F163A6 /* ThreeLineView.m in Sources */,
 				04BBFB1A229E291E00F163A6 /* CurrentWeatherData.m in Sources */,
 				04BBFB05229E291E00F163A6 /* RequestBodyType.m in Sources */,
+				04BBFBBF229E36AD00F163A6 /* ZJ_RulesLineModel.m in Sources */,
 				04BBFB0D229E291E00F163A6 /* GCDGroup.m in Sources */,
 				04BBFB5C229E291E00F163A6 /* CALayer+MaskLayer.m in Sources */,
 				04BBFB40229E291E00F163A6 /* CircleView.m in Sources */,
 				04BBFB48229E291E00F163A6 /* SunInfoView.m in Sources */,
 				04BBFB1C229E291E00F163A6 /* CurrentConditions.m in Sources */,
+				04BBFBC6229E36AD00F163A6 /* QQL_CompassViewController.m in Sources */,
 				04BBFB0A229E291E00F163A6 /* ResponseDataType.m in Sources */,
 				04BBFB5B229E291E00F163A6 /* MaxTempCount.m in Sources */,
 				04BBFB3D229E291E00F163A6 /* ShowDownView.m in Sources */,
 				04BBFB5D229E291E00F163A6 /* HumidityView.m in Sources */,
+				04BBFBBB229E36AD00F163A6 /* QBTools.m in Sources */,
 				04BBFB30229E291E00F163A6 /* NumberCount.m in Sources */,
 				04BBFB6F229E291E00F163A6 /* POPSpringAnimation.mm in Sources */,
 				04BBFB20229E291E00F163A6 /* Coord.m in Sources */,
 				04BBFB7A229E291E00F163A6 /* POPAnimatableProperty.mm in Sources */,
 				04BBFB6C229E291E00F163A6 /* PresentingAnimator.m in Sources */,
 				04BBFB36229E291E00F163A6 /* GridView.m in Sources */,
+				04BBFBC3229E36AD00F163A6 /* QQL_NoiseViewController.m in Sources */,
 				04BBFB07229E291E00F163A6 /* RequestMethodType.m in Sources */,
 				04BBFB5F229E291E00F163A6 /* PathDirectionView.m in Sources */,
 				04BBFB7E229E291E00F163A6 /* POPVector.mm in Sources */,
@@ -1362,6 +1549,7 @@
 				04BBFB3F229E291E00F163A6 /* SunriseView.m in Sources */,
 				04BBFB4D229E291E00F163A6 /* UILabel+Temperature.m in Sources */,
 				04BBFB17229E291E00F163A6 /* Wind.m in Sources */,
+				04BBFBC7229E36AD00F163A6 /* QQL_CompassManage.m in Sources */,
 				04BBFB82229E291E00F163A6 /* NSString+File.m in Sources */,
 				04BBFB53229E291E00F163A6 /* TitleMoveLabel.m in Sources */,
 				04BBF468229E22B000F163A6 /* AppDelegate.m in Sources */,
@@ -1380,6 +1568,8 @@
 				04BBFB0E229E291E00F163A6 /* GCDSemaphore.m in Sources */,
 				04BBFB47229E291E00F163A6 /* ShapeWordView.m in Sources */,
 				04BBFB24229E291E00F163A6 /* ARCGPathFromString.m in Sources */,
+				04BBFBC1229E36AD00F163A6 /* QQL_RuleViewController.m in Sources */,
+				04BBFBC8229E36AD00F163A6 /* QQL_ProtractorViewController.m in Sources */,
 				04BBFB55229E291E00F163A6 /* MinTempContLabel.m in Sources */,
 				04BBFB83229E291E00F163A6 /* NSString+Color.m in Sources */,
 			);

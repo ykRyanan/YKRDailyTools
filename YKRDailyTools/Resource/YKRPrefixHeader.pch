@@ -13,6 +13,7 @@
 #import <Masonry.h>
 #import "YKRSizeHeader.h"
 #import "WeatherHeader.h"
+#import "DailyHeaders.h"
 
 #endif
 //weakSelf
