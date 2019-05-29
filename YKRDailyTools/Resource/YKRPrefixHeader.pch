@@ -1,0 +1,23 @@
+//
+//  YKRPrefixHeader.pch
+//  YKRDailyTools
+//
+//  Created by MAC on 2019/5/29.
+//  Copyright © 2019 ykRyan. All rights reserved.
+//
+
+#ifndef YKRPrefixHeader_pch
+#define YKRPrefixHeader_pch
+
+#ifdef __OBJC__
+#import <Masonry.h>
+#import "YKRSizeHeader.h"
+#import "WeatherHeader.h"
+
+#endif
+//weakSelf
+#define kWeakSelf __weak typeof(self) weakSelf = self;
+
+#define AboveIOS9  ([UIDevice currentDevice].systemVersion.floatValue >= 9.0)
+
+#endif /* YKRPrefixHeader_pch */
